@@ -1,0 +1,15 @@
+{
+  "domain": "dusunwifi",
+  "name": "Gateway Wifi",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@prosono"
+  ]
+}

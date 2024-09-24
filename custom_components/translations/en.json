@@ -1,0 +1,27 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+        },
+        "error": {
+            "invalid_sink_id": "Invalid password",
+            "invalid_ssid": "SSID can only use numbers or letters",
+	    "invalid_input_id": "Only one integration can be created, please delete existing integrations before creation",
+            "unknown": "[%key:common::config_flow::error::unknown%]"
+        },
+        "step": {
+            "user": {
+                "title": "SMARTi Wi-Fi",
+                "description": "set the SMARTi HUB wifi parameter\n",
+                "data": {
+                    "name": "IP:",
+		    "sink": "SSID:",
+		    "ssid": "SSID:",
+		    "password": "Password:(length: 8 ~ 63)",
+		    "channel": "Channel",
+		    "state": "state"
+                }
+            }
+        }
+    }
+}

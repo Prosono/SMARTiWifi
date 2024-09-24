@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dusun Wifi",
+        "description": "Set wifi parameter\n",
+        "data": {
+          "name": "Ip:",
+          "sink": "",
+	  "ssid": "SSID:"
+        }
+      }
+    },
+    "error": {
+      "invalid_sink_id": "Invalid password",
+      "invalid_ssid": "SSID can only use numbers or letters",
+      "invalid_input_id": "Only one integration can be created, please delete existing integrations before creation",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}
